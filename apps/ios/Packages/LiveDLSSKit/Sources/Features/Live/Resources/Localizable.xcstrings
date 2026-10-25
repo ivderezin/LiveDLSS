@@ -1,0 +1,136 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ ms": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ мс"
+          }
+        }
+      }
+    },
+    "Connecting to %@…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подключение к %@…"
+          }
+        }
+      }
+    },
+    "Connecting…": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подключение…"
+          }
+        }
+      }
+    },
+    "Connection closed": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Соединение закрыто"
+          }
+        }
+      }
+    },
+    "DLSS ✓": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DLSS ✓"
+          }
+        }
+      }
+    },
+    "DLSS ✗ (fallback)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DLSS ✗ (резервный режим)"
+          }
+        }
+      }
+    },
+    "Disconnect": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отключиться"
+          }
+        }
+      }
+    },
+    "Drop": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Потери"
+          }
+        }
+      }
+    },
+    "Out": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выход"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки"
+          }
+        }
+      }
+    },
+    "Streaming": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Трансляция"
+          }
+        }
+      }
+    },
+    "Switch to front camera": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переключить на фронтальную камеру"
+          }
+        }
+      }
+    },
+    "Switch to rear camera": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Переключить на заднюю камеру"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

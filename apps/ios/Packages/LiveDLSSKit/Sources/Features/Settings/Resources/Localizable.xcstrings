@@ -1,0 +1,176 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Debug": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отладка"
+          }
+        }
+      }
+    },
+    "Depth / motion vectors": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Глубина / векторы движения"
+          }
+        }
+      }
+    },
+    "Downlink: %lld Mbps": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downlink: %lld Мбит/с"
+          }
+        }
+      }
+    },
+    "Enable DLSS": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Включить DLSS"
+          }
+        }
+      }
+    },
+    "Mode": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Режим"
+          }
+        }
+      }
+    },
+    "Model preset": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пресет модели"
+          }
+        }
+      }
+    },
+    "Motion vectors are computed on the PC from the camera pose and sensor depth (LiDAR or TrueDepth).": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Векторы движения строятся на ПК из позы камеры и глубины с датчика (LiDAR или TrueDepth)."
+          }
+        }
+      }
+    },
+    "Network": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сеть"
+          }
+        }
+      }
+    },
+    "No depth sensor: motion vectors are computed from the camera pose and a plane at the set distance.": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Датчика глубины нет: векторы строятся из позы камеры и плоскости на заданной дистанции."
+          }
+        }
+      }
+    },
+    "Output ≈ %lld×%lld": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "На выходе ≈ %lld×%lld"
+          }
+        }
+      }
+    },
+    "Plane distance: %@ m": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дистанция плоскости: %@ м"
+          }
+        }
+      }
+    },
+    "Return to iPhone": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Возвращать на iPhone"
+          }
+        }
+      }
+    },
+    "Send resolution": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разрешение отправки"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки"
+          }
+        }
+      }
+    },
+    "Sharpness: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Резкость: %@"
+          }
+        }
+      }
+    },
+    "Source": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Источник"
+          }
+        }
+      }
+    },
+    "Uplink: %lld Mbps": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uplink: %lld Мбит/с"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

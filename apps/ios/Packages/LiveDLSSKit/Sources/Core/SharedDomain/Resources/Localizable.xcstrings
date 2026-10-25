@@ -1,0 +1,126 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Balanced (1.72×)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Баланс (1.72×)"
+          }
+        }
+      }
+    },
+    "Default": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По умолчанию"
+          }
+        }
+      }
+    },
+    "Depth": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Глубина"
+          }
+        }
+      }
+    },
+    "Depth sensor": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Датчик глубины"
+          }
+        }
+      }
+    },
+    "Input": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вход"
+          }
+        }
+      }
+    },
+    "Motion vectors": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Векторы движения"
+          }
+        }
+      }
+    },
+    "Performance (2×)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Производительность (2×)"
+          }
+        }
+      }
+    },
+    "Plane": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Плоскость"
+          }
+        }
+      }
+    },
+    "Preset %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пресет %@"
+          }
+        }
+      }
+    },
+    "Quality (1.5×)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Качество (1.5×)"
+          }
+        }
+      }
+    },
+    "Result": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Результат"
+          }
+        }
+      }
+    },
+    "Ultra Performance (3×)": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ультрапроизводительность (3×)"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

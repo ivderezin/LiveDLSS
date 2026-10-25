@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.cs text eol=lf
+*.swift text eol=lf
+*.hlsl text eol=lf
+*.sln text eol=crlf
+*.bat text eol=crlf
+*.png binary
+*.dll binary

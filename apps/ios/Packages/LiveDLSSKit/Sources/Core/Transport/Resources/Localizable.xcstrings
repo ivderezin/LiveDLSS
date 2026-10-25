@@ -1,0 +1,36 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Connection interrupted": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Соединение прервано"
+          }
+        }
+      }
+    },
+    "Decode error: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ошибка декодирования: %@"
+          }
+        }
+      }
+    },
+    "Protocol error: %@": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ошибка протокола: %@"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

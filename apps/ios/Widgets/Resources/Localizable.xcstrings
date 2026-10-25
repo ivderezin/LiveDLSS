@@ -1,0 +1,36 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Open the app to resume": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Откройте приложение, чтобы продолжить"
+          }
+        }
+      }
+    },
+    "Paused": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "На паузе"
+          }
+        }
+      }
+    },
+    "Streaming": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Трансляция"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

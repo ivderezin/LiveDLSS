@@ -1,0 +1,9 @@
+<Project>
+  <ItemGroup>
+    <EmbeddedResource Update="Strings.resx"
+                      StronglyTypedLanguage="CSharp"
+                      StronglyTypedClassName="Strings"
+                      StronglyTypedNamespace="$(RootNamespace)"
+                      StronglyTypedFileName="$(IntermediateOutputPath)Strings.g.cs" />
+  </ItemGroup>
+</Project>

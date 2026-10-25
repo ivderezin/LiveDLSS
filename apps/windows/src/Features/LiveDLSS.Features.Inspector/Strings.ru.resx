@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="ModeDlaa" xml:space="preserve"><value>DLAA</value></data>
+  <data name="ModeQuality" xml:space="preserve"><value>Качество</value></data>
+  <data name="ModeBalanced" xml:space="preserve"><value>Баланс</value></data>
+  <data name="ModePerformance" xml:space="preserve"><value>Производительность</value></data>
+  <data name="ModeUltraPerformance" xml:space="preserve"><value>Ультрапроизводительность</value></data>
+  <data name="ViewFinal" xml:space="preserve"><value>Результат</value></data>
+  <data name="ViewInput" xml:space="preserve"><value>Вход</value></data>
+  <data name="ViewDepth" xml:space="preserve"><value>Глубина</value></data>
+  <data name="ViewMotionVectors" xml:space="preserve"><value>Векторы движения</value></data>
+  <data name="DepthSensor" xml:space="preserve"><value>Датчик глубины</value></data>
+  <data name="DepthPlane" xml:space="preserve"><value>Плоскость</value></data>
+  <data name="SectionServer" xml:space="preserve"><value>Сервер</value></data>
+  <data name="SectionClient" xml:space="preserve"><value>Клиент</value></data>
+  <data name="SectionPipeline" xml:space="preserve"><value>Пайплайн</value></data>
+  <data name="SectionDlss" xml:space="preserve"><value>Настройки DLSS</value></data>
+  <data name="SectionNeural" xml:space="preserve"><value>DLSS 5 Neural Rendering (экспериментально)</value></data>
+  <data name="Upscaler" xml:space="preserve"><value>Апскейлер: {0}</value></data>
+  <data name="Encoder" xml:space="preserve"><value>Энкодер: {0}</value></data>
+  <data name="ClientDepth" xml:space="preserve"><value>{0} · глубина: {1}</value></data>
+  <data name="Yes" xml:space="preserve"><value>да</value></data>
+  <data name="No" xml:space="preserve"><value>нет</value></data>
+  <data name="WaitingForIphone" xml:space="preserve"><value>Ожидание iPhone…</value></data>
+  <data name="RenderToOutput" xml:space="preserve"><value>Рендер {0}x{1}  →  Выход {2}x{3}</value></data>
+  <data name="Frames" xml:space="preserve"><value>Кадров: {0} · Сброшено: {1}</value></data>
+  <data name="OverrideIphone" xml:space="preserve"><value>Переопределить настройки iPhone</value></data>
+  <data name="DlssEnabled" xml:space="preserve"><value>DLSS включён</value></data>
+  <data name="Mode" xml:space="preserve"><value>Режим</value></data>
+  <data name="Preset" xml:space="preserve"><value>Пресет (0=default, 1=A…)</value></data>
+  <data name="Sharpness" xml:space="preserve"><value>Резкость</value></data>
+  <data name="ReturnToIphone" xml:space="preserve"><value>Вернуть на iPhone</value></data>
+  <data name="Depth" xml:space="preserve"><value>Глубина</value></data>
+  <data name="PlaneMeters" xml:space="preserve"><value>Плоскость, м</value></data>
+  <data name="DownlinkMbps" xml:space="preserve"><value>Downlink, Мбит/с</value></data>
+  <data name="NeuralOnIphone" xml:space="preserve"><value>Нейрорендеринг на iPhone</value></data>
+  <data name="NeuralIntensity" xml:space="preserve"><value>Интенсивность NR</value></data>
+  <data name="NeuralStyle" xml:space="preserve"><value>Стиль NR</value></data>
+  <data name="NeuralModel" xml:space="preserve"><value>Модель NR</value></data>
+  <data name="StyleDefault" xml:space="preserve"><value>По умолчанию</value></data>
+  <data name="StyleNatural" xml:space="preserve"><value>Естественный</value></data>
+  <data name="StyleCinematic" xml:space="preserve"><value>Кинематографичный</value></data>
+  <data name="ModelDllDefault" xml:space="preserve"><value>По умолчанию из DLL</value></data>
+  <data name="NeuralHint" xml:space="preserve"><value>NR меняет освещение и материалы. Превью NR показывает тот же кадр, который возвращается на iPhone. Настройки NR задаются на ПК.</value></data>
+  <data name="NeuralNotLoaded" xml:space="preserve"><value>NR: библиотека не загружена</value></data>
+  <data name="NoFrames" xml:space="preserve"><value>Нет кадров</value></data>
+</root>

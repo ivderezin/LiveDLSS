@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="LibraryLoaded" xml:space="preserve"><value>NR: библиотека загружена, ожидание кадра</value></data>
+  <data name="NvidiaRequired" xml:space="preserve"><value>NR: требуется NVIDIA GPU</value></data>
+  <data name="LibraryNotFound" xml:space="preserve"><value>NR: не найдена библиотека {0}</value></data>
+  <data name="Error" xml:space="preserve"><value>NR: {0}</value></data>
+  <data name="ModelCreated" xml:space="preserve"><value>NR: модель создана, ожидание evaluate</value></data>
+  <data name="Active" xml:space="preserve"><value>DLSS Neural Rendering: nvngx_dlssnr.dll активна</value></data>
+</root>

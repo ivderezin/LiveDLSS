@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <AssemblyName>LiveDLSSServer</AssemblyName>
+    <PlatformTarget>x64</PlatformTarget>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
+    <TieredPGO>true</TieredPGO>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../Features/LiveDLSS.Features.NeuralRendering/LiveDLSS.Features.NeuralRendering.csproj" />
+    <ProjectReference Include="../../Features/LiveDLSS.Features.Ingest/LiveDLSS.Features.Ingest.csproj" />
+    <ProjectReference Include="../../Features/LiveDLSS.Features.MotionVectors/LiveDLSS.Features.MotionVectors.csproj" />
+    <ProjectReference Include="../../Features/LiveDLSS.Features.Upscale/LiveDLSS.Features.Upscale.csproj" />
+    <ProjectReference Include="../../Features/LiveDLSS.Features.Egress/LiveDLSS.Features.Egress.csproj" />
+    <ProjectReference Include="../../Features/LiveDLSS.Features.Inspector/LiveDLSS.Features.Inspector.csproj" />
+    <ProjectReference Include="../../Features/LiveDLSS.Features.Discovery/LiveDLSS.Features.Discovery.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="$(RepoRoot)apps/windows/runtimes/ffmpeg/*.dll;$(RepoRoot)apps/windows/runtimes/ffmpeg/*.txt" Link="ffmpeg/%(Filename)%(Extension)"
+          CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" Condition="Exists('$(RepoRoot)apps/windows/runtimes/ffmpeg')" />
+    <None Include="$(RepoRoot)apps/windows/runtimes/neural-rendering/*.dll" Link="%(Filename)%(Extension)"
+          CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" Condition="Exists('$(RepoRoot)apps/windows/runtimes/neural-rendering')" />
+    <None Include="$(RepoRoot)apps/windows/runtimes/dlss/*.dll" Link="%(Filename)%(Extension)"
+          CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" Condition="Exists('$(RepoRoot)apps/windows/runtimes/dlss')" />
+  </ItemGroup>
+</Project>

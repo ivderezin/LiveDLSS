@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FFmpeg.AutoGen" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../LiveDLSS.Core/LiveDLSS.Core.csproj" />
+  </ItemGroup>
+</Project>

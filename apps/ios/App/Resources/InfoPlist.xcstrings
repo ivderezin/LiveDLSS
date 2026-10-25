@@ -1,0 +1,26 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSCameraUsageDescription": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Камера нужна, чтобы отправлять кадры на ПК для обработки DLSS."
+          }
+        }
+      }
+    },
+    "NSLocalNetworkUsageDescription": {
+      "localizations": {
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Локальная сеть нужна для связи с LiveDLSS Server на вашем ПК."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

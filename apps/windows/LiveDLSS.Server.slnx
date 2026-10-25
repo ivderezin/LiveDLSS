@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/App/">
+    <Project Path="src/App/LiveDLSS.Server/LiveDLSS.Server.csproj" />
+  </Folder>
+  <Folder Name="/Core/">
+    <Project Path="src/Core/LiveDLSS.Core/LiveDLSS.Core.csproj" />
+    <Project Path="src/Core/LiveDLSS.Media/LiveDLSS.Media.csproj" />
+    <Project Path="src/Core/LiveDLSS.Protocol/LiveDLSS.Protocol.csproj" />
+  </Folder>
+  <Folder Name="/Features/">
+    <Project Path="src/Features/LiveDLSS.Features.Discovery/LiveDLSS.Features.Discovery.csproj" />
+    <Project Path="src/Features/LiveDLSS.Features.Egress/LiveDLSS.Features.Egress.csproj" />
+    <Project Path="src/Features/LiveDLSS.Features.Ingest/LiveDLSS.Features.Ingest.csproj" />
+    <Project Path="src/Features/LiveDLSS.Features.Inspector/LiveDLSS.Features.Inspector.csproj" />
+    <Project Path="src/Features/LiveDLSS.Features.NeuralRendering/LiveDLSS.Features.NeuralRendering.csproj" />
+    <Project Path="src/Features/LiveDLSS.Features.MotionVectors/LiveDLSS.Features.MotionVectors.csproj" />
+    <Project Path="src/Features/LiveDLSS.Features.Upscale/LiveDLSS.Features.Upscale.csproj" />
+  </Folder>
+</Solution>

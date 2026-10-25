@@ -1,0 +1,80 @@
+name: LiveDLSS
+options:
+  developmentLanguage: en
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+packages:
+  LiveDLSSKit:
+    path: Packages/LiveDLSSKit
+targets:
+  LiveDLSS:
+    type: application
+    platform: iOS
+    configFiles:
+      Debug: Configs/Base.xcconfig
+      Release: Configs/Base.xcconfig
+    sources:
+      - App/Sources
+      - App/Resources
+    dependencies:
+      - package: LiveDLSSKit
+        product: LiveDLSSKit
+      - target: LiveDLSSWidgets
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: LiveDLSS
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations: [en, ru]
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen: {}
+        UIRequiredDeviceCapabilities: [arkit]
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIStatusBarHidden: true
+        NSCameraUsageDescription: "The camera is used to send frames to your PC for DLSS processing."
+        NSLocalNetworkUsageDescription: "The local network is used to talk to LiveDLSS Server on your PC."
+        NSBonjourServices: ["_livedlss._tcp"]
+        NSSupportsLiveActivities: true
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: "1"
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+  LiveDLSSWidgets:
+    type: app-extension
+    platform: iOS
+    configFiles:
+      Debug: Configs/Widgets.xcconfig
+      Release: Configs/Widgets.xcconfig
+    sources:
+      - Widgets/Sources
+      - Widgets/Resources
+    dependencies:
+      - package: LiveDLSSKit
+        product: LiveSession
+      - sdk: WidgetKit.framework
+      - sdk: SwiftUI.framework
+    info:
+      path: Widgets/Info.plist
+      properties:
+        CFBundleDisplayName: LiveDLSS
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations: [en, ru]
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: "1"
+schemes:
+  LiveDLSS:
+    build:
+      targets:
+        LiveDLSS: all

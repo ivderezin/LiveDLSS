@@ -1,0 +1,122 @@
+{
+  "version": 2,
+  "dependencies": {
+    "net10.0-windows7.0": {
+      "Hexa.NET.ImGui": {
+        "type": "Direct",
+        "requested": "[2.2.9, )",
+        "resolved": "2.2.9",
+        "contentHash": "WFnhZiBZ6UStKqVt43d2hhGCBaJ/TfLRVExnqAO+R3TEbfTQfVjWhcDRUb7n4SvFW7AP9JR8TpCutQZmV62D2A==",
+        "dependencies": {
+          "HexaGen.Runtime": "1.1.21"
+        }
+      },
+      "Hexa.NET.ImGui.Backends": {
+        "type": "Direct",
+        "requested": "[1.0.18, )",
+        "resolved": "1.0.18",
+        "contentHash": "4yDk002cKRzPXR0IJXnM1uArQZjvnHDEkjQJSGmV5BeKrcQtF9bg1AJqfzzfZehotRZPqFubIyC4roLjxKzARw==",
+        "dependencies": {
+          "Hexa.NET.ImGui": "2.2.9",
+          "HexaGen.Runtime": "1.1.21"
+        }
+      },
+      "HexaGen.Runtime": {
+        "type": "Transitive",
+        "resolved": "1.1.21",
+        "contentHash": "fxSBIroVyuU1CQUSKsE3IZNOW8FlI58zuU1kIG5ZvDH0jtQq5yTPEvPMoNyMB5PrhzYH/taTMqd85VtxcZPD8g=="
+      },
+      "SharpGen.Runtime": {
+        "type": "Transitive",
+        "resolved": "2.4.2-beta",
+        "contentHash": "niTtWAUov1F7wZGAlVeEvW+Tnqvg5yTmhI7rxmYu2Utoyu2TbC9tWWpUpMs0PQg5lu5svoYpCAztNjxCqMFP/w=="
+      },
+      "SharpGen.Runtime.COM": {
+        "type": "Transitive",
+        "resolved": "2.4.2-beta",
+        "contentHash": "9lxDFMiepqo3lJQzMSjECCIONeCc2f3Drokgj6HtrTLZcJSftNgcLbD6/iXYj2iphkwgrZb1oLsDOZxoFZkawQ==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta"
+        }
+      },
+      "Vortice.DirectX": {
+        "type": "Transitive",
+        "resolved": "3.8.3",
+        "contentHash": "nKwSavv0w5rDF7prSefqAVPDcTyqrfZxKFMVfttiXPfm62VdA/1d+b3PhCZpW4xO7jXczXDwjQdWgD1zGsvM8w==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "SharpGen.Runtime.COM": "2.4.2-beta",
+          "Vortice.Mathematics": "2.1.0"
+        }
+      },
+      "Vortice.Mathematics": {
+        "type": "Transitive",
+        "resolved": "2.1.0",
+        "contentHash": "KK+SjNSuKdP+zbavekubi+vaeb1Jo4k87ZF6CMkVWjr6RjJwc8peVtmgzXXDIMy4ZC3ZISyk3llY3q65ISOkBQ=="
+      },
+      "livedlss.core": {
+        "type": "Project",
+        "dependencies": {
+          "LiveDLSS.Protocol": "[1.0.0, )",
+          "Vortice.D3DCompiler": "[3.8.3, )",
+          "Vortice.DXGI": "[3.8.3, )",
+          "Vortice.Direct3D12": "[3.8.3, )"
+        }
+      },
+      "livedlss.protocol": {
+        "type": "Project"
+      },
+      "Vortice.D3DCompiler": {
+        "type": "CentralTransitive",
+        "requested": "[3.8.3, )",
+        "resolved": "3.8.3",
+        "contentHash": "OmGPMhf/xnD8/HZ0ms1x7xSFyz+6e6mveCqhu0EioMFQYKJM35/ZVLLo+FIB5KpsrlqhM/jvYHYPAxu45YONGg==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DirectX": "3.8.3"
+        }
+      },
+      "Vortice.Direct3D12": {
+        "type": "CentralTransitive",
+        "requested": "[3.8.3, )",
+        "resolved": "3.8.3",
+        "contentHash": "y3CCGGjIO26jNwNe+DXHnt8MePCDUPLRJz/+LSei2fN+0Tg7yEJE/jz2hxu9hpgyZNQbOYdl3bAwq1NHtsm4RQ==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DXGI": "3.8.3"
+        }
+      },
+      "Vortice.DXGI": {
+        "type": "CentralTransitive",
+        "requested": "[3.8.3, )",
+        "resolved": "3.8.3",
+        "contentHash": "MbAUnTeQ6WD99ctAdrj5CQO2I7oaax0Kt2eVdWSUj0bYP9Ed0726+s7dIHe4+tqhpmINW/dcPt0mNtc72o+E0w==",
+        "dependencies": {
+          "SharpGen.Runtime": "2.4.2-beta",
+          "Vortice.DirectX": "3.8.3"
+        }
+      }
+    },
+    "net10.0-windows7.0/win-x64": {
+      "Hexa.NET.ImGui": {
+        "type": "Direct",
+        "requested": "[2.2.9, )",
+        "resolved": "2.2.9",
+        "contentHash": "WFnhZiBZ6UStKqVt43d2hhGCBaJ/TfLRVExnqAO+R3TEbfTQfVjWhcDRUb7n4SvFW7AP9JR8TpCutQZmV62D2A==",
+        "dependencies": {
+          "HexaGen.Runtime": "1.1.21"
+        }
+      },
+      "Hexa.NET.ImGui.Backends": {
+        "type": "Direct",
+        "requested": "[1.0.18, )",
+        "resolved": "1.0.18",
+        "contentHash": "4yDk002cKRzPXR0IJXnM1uArQZjvnHDEkjQJSGmV5BeKrcQtF9bg1AJqfzzfZehotRZPqFubIyC4roLjxKzARw==",
+        "dependencies": {
+          "Hexa.NET.ImGui": "2.2.9",
+          "HexaGen.Runtime": "1.1.21"
+        }
+      }
+    }
+  }
+}

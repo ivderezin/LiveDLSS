@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../Core/LiveDLSS.Core/LiveDLSS.Core.csproj" />
+    <EmbeddedResource Include="Shaders/*.hlsl" />
+  </ItemGroup>
+</Project>

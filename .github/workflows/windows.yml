@@ -1,0 +1,57 @@
+name: Windows server
+
+on:
+  push:
+    branches: [main]
+    paths: ["apps/windows/**", ".github/workflows/windows.yml"]
+  pull_request:
+    paths: ["apps/windows/**", ".github/workflows/windows.yml"]
+
+concurrency:
+  group: windows-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/windows
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4.3.1
+        with:
+          global-json-file: apps/windows/global.json
+      - name: Check formatting
+        run: dotnet format LiveDLSS.Server.slnx --verify-no-changes
+      - name: Build (EnableWindowsTargeting)
+        run: dotnet build LiveDLSS.Server.slnx -c Release
+
+  build-windows:
+    runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: apps/windows
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4.3.1
+        with:
+          global-json-file: apps/windows/global.json
+      - name: Fetch public NGX headers
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          repository: NVIDIA/DLSS
+          ref: 9981c6350dc58c0ce21f024fd65e31e851c31689
+          path: vendor/ngx-sdk
+          sparse-checkout: include
+      - name: Build native Neural Rendering bridge
+        run: |
+          cmake -S native/LiveDLSS.NeuralRendering -B build/nr -A x64 "-DNGX_SDK_DIR=${{ github.workspace }}/vendor/ngx-sdk"
+          cmake --build build/nr --config Release
+          cmake --install build/nr --config Release
+      - name: Publish server
+        run: dotnet publish src/App/LiveDLSS.Server -c Release -r win-x64 --self-contained -o artifacts/server
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: LiveDLSSServer-win-x64
+          path: apps/windows/artifacts/server

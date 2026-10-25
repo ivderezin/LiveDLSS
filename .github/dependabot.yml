@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: nuget
+    directory: /apps/windows
+    schedule: { interval: weekly }
+    groups:
+      vortice: { patterns: ["Vortice.*"] }
+      imgui: { patterns: ["Hexa.*"] }
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule: { interval: weekly }
